@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+*.egg-info
+
+# Virtual environment
+.venv/
+
+# Secrets
+.env
+
+# Data and models: too large for Git, often not ours to republish
+data/*
+!data/.gitkeep
+!data/ipl_matches.csv
+models/
+
+# Logs, notebooks, editor
+*.log
+.ipynb_checkpoints/
+.vscode/
